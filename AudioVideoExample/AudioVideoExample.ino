@@ -67,7 +67,7 @@ void setup()
   controllers.setController(0, GameControllers::NES, CONTROLLER_DATA_PIN); //first controller
 
   //Play first sound in loop (music)
-  sounds.play(audioSystem, 0, 1, 1, loop);
+  sounds.play(audioSystem, 0, 1, 1, true);
 }
 
 void loop()
